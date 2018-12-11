@@ -1,0 +1,233 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: rgb(10,101,23);
+
+}
+h1 {
+    top: 70px;
+    left: 50px;
+    position: relative;
+    color: white;
+    font-size: 72px;
+    text-shadow: -1px 1px 7px black;
+}
+.restoTitle {
+    top: 60px;
+    left: 380px;
+    position: relative;
+    color: white;
+    font-size: 40px;
+    text-shadow: -5px 5px 7px black;
+}
+.titleImg{
+    background-image: url("image1.jpg");
+    background-size: cover;
+    height: 315px;
+    position: relative;
+    color: white;
+    background-size: 1000px;
+}
+.navBar{    
+    height: 50px;
+    position: relative;
+    top: 127px;
+    color: white;
+    /*font-size: 30px;*/    
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(10,101,23);
+    opacity: 0.85;
+}
+li {   
+    display: inline;
+    border-right: 1px solid white;
+    margin: 0px;
+    float: left;
+    font-size: 24px;
+    padding: 10px 20px;
+}    
+li:last-child {
+    border-right: none;
+}
+li a{
+    color:white;
+    text-decoration: none;
+}
+li a:hover {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 1px;
+}
+
+.section1{
+    
+    height: 900px;
+    width: 100%;
+    
+}
+ 
+
+
+.div1 {
+    background-color: white;
+    height: 270px;
+    width: 250px;
+    margin-left: 219px;
+    display: inline-block;
+    padding: 10px;
+    border-radius: 7%;
+
+
+}
+.img1 {
+    background-image: url("http://beautyhealth.tips/wp-content/uploads/2016/02/Gujarati-recipes-660x463.jpg");
+    background-size: cover;
+
+    height: 250px;
+    width: 240px; 
+    
+    display: inline-block;
+}
+.div2 {
+    background-color: white;
+    height: 270px;
+    width: 250px;
+    display: inline-block;
+    margin-left: 46px;
+    margin-top: 70px;
+    padding: 10px;
+    border-radius: 7%;
+
+}
+.img2 {
+    background-image: url("https://www.14gaam.com/Image/khandvi.jpg");
+    height: 250px;
+    width: 240px; 
+    display: inline-block;
+    background-size: cover;
+    
+}
+.div3 {
+    background-color: white;
+    height: 270px;
+    width: 250px;
+    display: inline-block;
+    margin-left: 30px;
+    padding: 10px;
+    border-radius: 7%;
+
+}
+.img3 {
+    background-image: url("https://img.werecipes.com/wp/wp-content/uploads/2014/09/tuvar-sabji-recipe-gujarati-tuver-na-thotha.jpg");
+    background-size: cover;
+    height: 250px;
+    width: 240px; 
+    display: inline-block;
+    
+}
+.div4 {
+    background-color: white;
+    height: 270px;
+    width: 250px;
+    display: inline-block;
+    margin-left: 230px;
+    margin-top: 70px;
+    padding: 10px;
+    border-radius: 7%;
+
+    
+
+}
+.img4 {
+    background-image: url("http://www.indobase.com/recipes/rec-images/mohanthaal.jpg");
+    background-size: cover;
+    height: 250px;
+    width: 240px; 
+    display: inline-block;
+}
+.div5 {
+    background-color: rgba(249, 249, 250, 0.623);
+    
+    height: 270px;
+    width: 250px;
+    display: inline-block;
+    margin-left: 42px;
+    padding: 10px;
+    border-radius: 7%;
+
+    
+}
+.img5 {
+    background-image: url("http://cdn3.foodviva.com/static-content/food-images/gujarati-recipes/handvo/handvo.jpg");
+    background-size: cover;
+    height: 250px;
+    width: 240px; 
+    display: inline-block;
+    z-index: -1;
+}
+.div6 {
+    background-color: white;
+    height: 270px;
+    width: 250px;
+    display: inline-block;
+    margin-left: 35px;
+    padding: 10px;
+    border-radius: 7%;
+
+}
+.img6 {
+    background-image: url("https://www.vegrecipesofindia.com/wp-content/uploads/2017/12/gujarati-fafda.jpg");
+    background-size: cover;
+    height: 250px;
+    width: 240px; 
+    display: inline-block;
+}
+.div8 {
+    border: 1px solid white;
+    background-color: rgba(255, 255, 255, 0.842);
+}
+P1 {
+    font-size: 30px;
+}
+.section2{
+    
+        background-color: rgb(10,101,23);
+        height: 300px;
+        width: 100%;
+        
+    
+}
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+}
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  .fa:hover {
+    opacity: 0.7;
+  }
+  .fa-twitter {
+    background: rgb(73, 169, 243);
+    color: white;
+  }
+  
+  .fa-google {
+    background: #df3822;
+    color: white;
+  }  
+
