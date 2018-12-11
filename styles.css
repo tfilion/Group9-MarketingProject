@@ -202,8 +202,6 @@ li a:hover {
     height:250px;
     background-image: url('paneer.jpg');
     background-size: 320px;
-
-
 }
 
 .div2
@@ -255,17 +253,21 @@ li a:hover {
     text-align: left;
     color:rgb(216, 211, 211);
 }
-.a
+
+
+.bigbox
 {
-     width:1780px;
-     height:350px;
-     margin-top: 80px;
-     padding-top:50px;
-     padding-left: 120px;
-     padding-right: 30px;
-     
+    width:2100px;
+    height:350px;
+    margin-top: 80px;
+    
+    padding-top:50px;
+    padding-left: 120px;
+    padding-right: 30px;
+
 }
-.a1
+
+.I1, .I2, .I3, .I4, .I5
 {
     width:300px;
     height:300px;
@@ -274,191 +276,117 @@ li a:hover {
     padding-top:20px;
     padding-left: 20px;
     border-radius: 20px;
-    margin-left: 30px;
-}  
-
-.a2
-{
-    width:300px;
-    height:300px;
-    background-color: white; 
-    float:left;
-    margin-left: 30px;
-    padding-top:20px;
-    padding-left: 20px;
-    border-radius: 20px;
-}
-
-.a3
-{
-    width:300px;
-    height:300px;
-    background-color: white;
-    float:left;
-    margin-left:30px;
-    padding-top:20px;
-    padding-left: 20px;
-    border-radius: 20px;
-}
-
-.a4
-{
-    width:300px;
-    height:300px;
-    background-color: white;
-    float:left;
-    margin-left:30px;
-    padding-top:20px;
-    padding-left: 20px;
-    border-radius: 20px;
-}
-
-.a5
-{
-    width:300px;
-    height:300px;
-    background-color: white;
-    float:right;
-    margin-right:30px;
-    padding-top:20px;
-    padding-left: 20px;
-    border-radius: 20px;
     
 }
-
-.dish1, dish2, dish3, dish4, dish5
+.I2
 {
-    position: absolute;
-    color:rgb(52, 21, 138);
-    font-size: 20px;
-    margin-top: 25px;
+    margin-left: 30px;
 }
-
-.dish2
+.I3
 {
-   position: absolute;
-   color:rgb(52, 21, 138);
-   font-size: 20px;
-   margin-top: 25px;
+    margin-left:30px;
 }
-
-.dish3
+.I4
 {
-    position: absolute;
-    color:rgb(52, 21, 138);
-    font-size: 20px;
-    margin-top: 25px;
+    margin-left:30px;
 }
-
-.dish4
+.I5
 {
-    position: absolute;
-    color:rgb(52, 21, 138);
-    font-size: 20px;
-    margin-top: 25px;
+    float:right;
+    margin-right:385px;
 }
-
-.dish5
-{
-    position: absolute;
-    color:rgb(52, 21, 138);
-    font-size: 20px;
-    margin-top: 25px;
-}
-
-.china1, .china2, .china3, .china4, .china5
+.btm, .btm1, .btm2, .btm3, .btm4
 {
     position: absolute;
     color:green;
     font-size: 18px;
 }
 
-.china1
+.btm
 {
-    left: 170px;
+    left: 150px;
    
 }
 
-.china2
+.btm1
 {
-    left:520px;
+    left:500px;
     
 }
-.china3
+.btm2
 {
-    left:870px;
+    left:850px;
 }
-.china4
+.btm3
 {
-    left:1220px;
+    left:1200px;
 }
-.china5
+.btm4
 {
-    left:1570px;
+    left:1530px;
 }
-.img1
+.n1, n2, .n3, .n4, .n5{
+    position: absolute;
+    color:rgb(52, 21, 138);
+    font-size: 20px;
+    margin-top: 25px;   
+}
+
+
+.n2{
+    left:320px;
+    margin-top:26px;
+    font-size:20px;
+    color:rgb(52, 21, 138);
+}
+
+.p1
 {
     width:274px;
     height:250px;
-    background-image: url("dragon-roll.jpg");
+    background-image: url('paneer.jpg');
     background-size: 320px;
-
 }
 
-.img2
+.p2
 {
     width:274px;
     height:250px;
-    background-image: url("Baby-Corn-Manchurian.jpg");
+    background-image: url(https://www.culturalindia.net/iliimages/Punjabi-Food-1.jpg);
     background-size: 380px;
 }
 
-.img3
+.p3
 {
     width:274px;
     height:250px;
     background-size: 380px;
-    background-image: url("momos.jpg");
+    background-image: url(https://i.ndtvimg.com/i/2015-01/saag_625x350_51420779118.jpg);
   
-}
 
-.img4
-{
-    width:274px;
+}
+.p4
+{   width:274px;
     height:250px;
-    background-image: url("noodles.jpg");
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQeY4Q6WBKk_-RtpzD8E_IOg671yWQYHZ_iBdRhXT4DvD90fIjJ);
     background-size: 380px;
     flex:none;
 }
 
-.img5
+.p5
 {
     width:274px;
     height:250px;
-    background-image: url("china garden.jpg");
-    background-size: 380px;
-    flex:none;
-
-
-
+    background-image: url("lassi.jpg");
+    background-size: 280px;
 }
 
-.footer
-{
-    height:200px;
-    width:auto;
-    margin-top: 60px;
-    background-color: rgb(60, 138, 60);
-    padding-left: 80px;
-    padding-right: 20px;
-    
-}
 
-.p
-{
-    text-align: left;
-    color:rgb(216, 211, 211);
-}
+
+
+
+
+
 
 
 @media only screen and (min-width: 350px) and (max-width: 767px){
