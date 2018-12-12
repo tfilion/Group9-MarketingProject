@@ -104,30 +104,7 @@ li a:hover {
     content: "";
     clear: both;
     display: table;
-  }
-.facebook, .google, .twitter {
-    padding: 20px;
-    font-size: 30px;
-    width: 50px;
-    text-align: center;
-    text-decoration: none;
-    margin: 5px 2px;
-    float: bottom;
 }
-.facebook {
-    background: #3B5998;
-    color: white;
-  }
- 
-.twitter {
-    background: rgb(73, 169, 243);
-    color: white;
-  }
-  
-.google {
-    background: #df3822;
-    color: white;
-  }  
 
 /*-------------------------------------------------------------------------------------------------------------------------------*/
 .box
