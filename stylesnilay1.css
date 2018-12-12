@@ -4,7 +4,7 @@
 }
 body{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: rgb(10,101,23);
+    background-color: rgb(204, 198, 198);
 
 }
 h1 {    
@@ -196,14 +196,7 @@ li a:hover {
 P1 {
     font-size: 30px;
 }
-.section2{
-    
-        background-color: rgb(10,101,23);
-        height: 300px;
-        width: 100%;
-        
-    
-}
+
 .fa {
     padding: 20px;
     font-size: 30px;
@@ -228,4 +221,28 @@ P1 {
     background: #df3822;
     color: white;
   }  
+#orderOnline {
+    font-size: 20px;
+    float: right;
+    margin: 20px 100px;
+    color: white;
+    background-color:rgb(10,101,23);
+    border: 3px solid rgb(10,101,23);
+    padding: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;    
+    }
 
+#orderOnline:hover {
+    background-color:white;
+    color:rgb(10,101,23);
+ }
+.patel{
+    
+    background-color: rgb(204, 198, 198);
+    height: 140px;
+    width: 100%;
+    
+
+}
