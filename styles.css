@@ -63,10 +63,12 @@ li a{
     text-decoration: none;
 }
 li a:hover {
-    display: inline-block;
     color: green;
     text-align: center;
     background-color: white;
+    padding: 0px;
+    margin: 0;
+    width: 100%;
     }
 #orderOnline {
     font-size: 20px;
