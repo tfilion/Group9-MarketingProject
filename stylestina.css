@@ -95,15 +95,18 @@ li a:hover {
 
 }
 .food1, .food2, .food3, .food4 {
-    height: 230px;
+    height: 215px;
     width: 500px;
     display: inline-block;
     margin: 20px 200px;
     padding: 20px 10px;
+    color: white;
     border: 3px solid rgb(10,101,23); 
+    background-color: rgb(10,101,23);
     text-align: right;   
     overflow: hidden;
     clear: right; 
+    border-radius: 5px;
     }
 .food1 {
     margin-top: 80px;    
@@ -119,7 +122,7 @@ li a:hover {
 .pizza{ 
     background-image: url("peppizza.jpg");
     position: relative;
-    bottom: 180px;
+    bottom: 190px;
     
  }
 .burger {
@@ -140,18 +143,21 @@ li a:hover {
     display: inline-block; 
     float: right;
     margin-top: 10px;
+    border: 3px solid white;
+    border-radius: 5px;
     
  }
  #descrPizza, #descrBurger, #descrPoutine, #descrNachos {
     text-align: left;
     margin-top: 20px;
     font-size: 18px;
-    
-    
-    
-    
-    
- }
+}
+.welcometxt{
+    font-size: 22px;
+    margin: 50px;
+    padding: 10px;
+    color: rgb(10,101,23);
+}
 /*-------------------------------------------------------------------------------------------------------------------------------*/
 .box
 {
