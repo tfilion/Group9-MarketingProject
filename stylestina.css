@@ -90,37 +90,65 @@ li a:hover {
  }
 
  .middle {
-    height: 900px;
+    height: 1600px;
     width: 100%;
+
 }
 .food1, .food2, .food3, .food4 {
-    height: 270px;
-    width: 250px;
+    height: 230px;
+    width: 500px;
     display: inline-block;
-    margin: 50px 10px 5px 200px;
-    padding: 20px 100px 5px 10px;
-       
+    margin: 20px 200px;
+    padding: 20px 10px;
+    border: 3px solid rgb(10,101,23); 
+    text-align: right;   
+    overflow: auto;
+    clear: right; 
 }
-
+.food1 {
+    margin-top: 80px;
+   
+   
+}
+.pizza::after{
+    content: "";
+    clear: both;
+    display: table;
+}
 .pizza{ 
     background-image: url("peppizza.jpg");
-}
+    
+ }
 .burger {
     background-image: url("burgerandfries.jpg");
 }
 .poutine {
     background-image: url("poutine.jpg");
+    
 }
 .nachos {
     background-image: url("nachos.jpg");
+    
 }
 .pizza, .burger, .poutine, .nachos {
     background-size: cover;
-    height: 250px;
-    width: 240px; 
-    display: inline-block;
+    height: 230px;
+    width: 220px; 
+    display: inline-block; 
+    float: right;
+    margin-top: 10px;
     
-}
+ }
+ #descrPizza, #descrBurger, #descrPoutine, #descrNachos {
+    text-align: left;
+    margin-top: 20px;
+    font-size: 18px;
+    
+    
+    
+    
+    
+ }
 /*-------------------------------------------------------------------------------------------------------------------------------*/
 .box
 {
