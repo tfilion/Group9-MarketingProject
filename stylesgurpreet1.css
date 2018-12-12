@@ -1,0 +1,296 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: rgb(204, 198, 198);
+
+}
+h1 {
+    top: 70px;
+    left: 50px;
+    position: relative;
+    color: white;
+    font-size: 72px;
+    text-shadow: -1px 1px 7px black;
+}
+.restoTitle {
+    top: 60px;
+    left: 380px;
+    position: relative;
+    color: white;
+    font-size: 40px;
+    text-shadow: -5px 5px 7px black;
+}
+.titleImg{
+    background-image: url("image1.jpg");
+    background-size: cover;
+    height: 315px;
+    position: relative;
+    color: white;
+    background-size: 1000px;
+}
+.navBar{    
+    height: 50px;
+    position: relative;
+    top: 127px;
+    color: white;
+    /*font-size: 30px;*/    
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(10,101,23);
+    opacity: 0.85;
+}
+li {   
+    display: inline;
+    border-right: 1px solid white;
+    margin: 0px;
+    float: left;
+    font-size: 24px;
+    padding: 10px 20px;
+}    
+li:last-child {
+    border-right: none;
+}
+li a{
+    color:white;
+    text-decoration: none;
+}
+li a:hover {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 1px;
+    background-color: black;
+}
+
+.b
+{
+     width:1780px;
+     height:350px;
+     margin-top: 80px;
+     padding-top:50px;
+     padding-left: 120px;
+     padding-right: 30px;
+     
+}
+.b1
+{
+    width:300px;
+    height:300px;
+    background-color:white;
+    float:left;
+    padding-top:20px;
+    padding-left: 20px;
+    border-radius: 20px;
+    margin-left: 30px;
+}  
+
+.b2
+{
+    width:300px;
+    height:300px;
+    background-color: white; 
+    float:left;
+    margin-left: 30px;
+    padding-top:20px;
+    padding-left: 20px;
+    border-radius: 20px;
+}
+
+.b3
+{
+    width:300px;
+    height:300px;
+    background-color: white;
+    float:left;
+    margin-left:30px;
+    padding-top:20px;
+    padding-left: 20px;
+    border-radius: 20px;
+}
+
+.b4
+{
+    width:300px;
+    height:300px;
+    background-color: white;
+    float:left;
+    margin-left:30px;
+    padding-top:20px;
+    padding-left: 20px;
+    border-radius: 20px;
+}
+
+.b5
+{
+    width:300px;
+    height:300px;
+    background-color: white;
+    float:right;
+    margin-right:30px;
+    padding-top:20px;
+    padding-left: 20px;
+    border-radius: 20px;
+    
+}
+
+.food1, food2, food3, food4, food5
+{
+    position: absolute;
+    color:rgb(52, 21, 138);
+    font-size: 20px;
+    margin-top: 25px;
+}
+
+.food2
+{
+   position: absolute;
+   color:rgb(52, 21, 138);
+   font-size: 20px;
+   margin-top: 25px;
+}
+
+.food3
+{
+    position: absolute;
+    color:rgb(52, 21, 138);
+    font-size: 20px;
+    margin-top: 25px;
+}
+
+.food4
+{
+    position: absolute;
+    color:rgb(52, 21, 138);
+    font-size: 20px;
+    margin-top: 25px;
+}
+
+.food5
+{
+    position: absolute;
+    color:rgb(52, 21, 138);
+    font-size: 20px;
+    margin-top: 25px;
+}
+
+.italn1, .italn2, .italn3, .italn4, .italn5
+{
+    position: absolute;
+    color:green;
+    font-size: 18px;
+}
+
+.italn1
+{
+    left: 170px;
+   
+}
+
+.italn2
+{
+    left:520px;
+    
+}
+.italn3
+{
+    left:870px;
+}
+.italn4
+{
+    left:1220px;
+}
+.italn5
+{
+    left:1570px;
+}
+
+.photo1
+{
+    width:274px;
+    height:250px;
+    background-image: url("Italian Pasta.jpg");
+    background-size: 320px;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+.photo2
+{
+    width:274px;
+    height:250px;
+    background-image: url("Zucchini Bread.jpg");
+    background-size: 380px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.photo3
+{
+    width:274px;
+    height:250px;
+    background-size: 380px;
+    background-image: url("Cranberry.jpg");
+  
+}
+
+.photo4
+{
+    width:274px;
+    height:250px;
+    background-image: url("Lasagna.jpg");
+    background-size: 380px;
+    flex:none;
+    background-position: center;
+}
+
+.photo5
+{
+    width:274px;
+    height:250px;
+    background-image: url("Tomato Salsa.jpg");
+    background-size: 380px;
+    flex:none;
+    background-position: center;
+}
+
+.f2
+{
+    height:200px;
+    width:auto;
+    margin-top: 60px;
+    background-color: rgb(60, 138, 60);
+    padding-left: 80px;
+    padding-right: 20px;
+    
+}
+
+.g
+{
+    text-align: left;
+    color:rgb(216, 211, 211);
+}
+#orderOnline {
+    font-size: 20px;
+    float: right;
+    margin: 20px 100px;
+    color: white;
+    background-color:rgb(10,101,23);
+    border: 3px solid rgb(10,101,23);
+    padding: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;    
+    }
+
+#orderOnline:hover {
+    background-color:white;
+    color:rgb(10,101,23);
+ }

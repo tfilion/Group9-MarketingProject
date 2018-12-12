@@ -1,0 +1,289 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: rgb(204, 198, 198);
+
+}
+h1 {
+    top: 70px;
+    left: 50px;
+    position: relative;
+    color: white;
+    font-size: 72px;
+    text-shadow: -1px 1px 7px black;
+}
+.restoTitle {
+    top: 60px;
+    left: 380px;
+    position: relative;
+    color: white;
+    font-size: 40px;
+    text-shadow: -5px 5px 7px black;
+}
+.titleImg{
+    background-image: url("image1.jpg");
+    background-size: cover;
+    height: 315px;
+    position: relative;
+    color: white;
+    background-size: 1000px;
+}
+.navBar{    
+    height: 50px;
+    position: relative;
+    top: 127px;
+    color: white;
+    /*font-size: 30px;*/    
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(10,101,23);
+    opacity: 0.85;
+}
+li {   
+    display: inline;
+    border-right: 1px solid white;
+    margin: 0px;
+    float: left;
+    font-size: 24px;
+    padding: 10px 20px;
+}    
+li:last-child {
+    border-right: none;
+}
+li a{
+    color:white;
+    text-decoration: none;
+}
+li a:hover {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 1px;
+    background-color: black;
+}
+
+.a
+{
+     width:1780px;
+     height:350px;
+     margin-top: 80px;
+     padding-top:50px;
+     padding-left: 120px;
+     padding-right: 30px;
+     
+}
+.a1
+{
+    width:300px;
+    height:300px;
+    background-color:white;
+    float:left;
+    padding-top:20px;
+    padding-left: 20px;
+    border-radius: 20px;
+    margin-left: 30px;
+}  
+
+.a2
+{
+    width:300px;
+    height:300px;
+    background-color: white; 
+    float:left;
+    margin-left: 30px;
+    padding-top:20px;
+    padding-left: 20px;
+    border-radius: 20px;
+}
+
+.a3
+{
+    width:300px;
+    height:300px;
+    background-color: white;
+    float:left;
+    margin-left:30px;
+    padding-top:20px;
+    padding-left: 20px;
+    border-radius: 20px;
+}
+
+.a4
+{
+    width:300px;
+    height:300px;
+    background-color: white;
+    float:left;
+    margin-left:30px;
+    padding-top:20px;
+    padding-left: 20px;
+    border-radius: 20px;
+}
+
+.a5
+{
+    width:300px;
+    height:300px;
+    background-color: white;
+    float:right;
+    margin-right:30px;
+    padding-top:20px;
+    padding-left: 20px;
+    border-radius: 20px;
+    
+}
+
+.dish1, dish2, dish3, dish4, dish5
+{
+    position: absolute;
+    color:rgb(52, 21, 138);
+    font-size: 20px;
+    margin-top: 25px;
+}
+
+.dish2
+{
+   position: absolute;
+   color:rgb(52, 21, 138);
+   font-size: 20px;
+   margin-top: 25px;
+}
+
+.dish3
+{
+    position: absolute;
+    color:rgb(52, 21, 138);
+    font-size: 20px;
+    margin-top: 25px;
+}
+
+.dish4
+{
+    position: absolute;
+    color:rgb(52, 21, 138);
+    font-size: 20px;
+    margin-top: 25px;
+}
+
+.dish5
+{
+    position: absolute;
+    color:rgb(52, 21, 138);
+    font-size: 20px;
+    margin-top: 25px;
+}
+
+.china1, .china2, .china3, .china4, .china5
+{
+    position: absolute;
+    color:green;
+    font-size: 18px;
+}
+
+.china1
+{
+    left: 170px;
+   
+}
+
+.china2
+{
+    left:520px;
+    
+}
+.china3
+{
+    left:870px;
+}
+.china4
+{
+    left:1220px;
+}
+.china5
+{
+    left:1570px;
+}
+.img1
+{
+    width:274px;
+    height:250px;
+    background-image: url("dragon-roll.jpg");
+    background-size: 320px;
+
+}
+
+.img2
+{
+    width:274px;
+    height:250px;
+    background-image: url("Baby-Corn-Manchurian.jpg");
+    background-size: 380px;
+}
+
+.img3
+{
+    width:274px;
+    height:250px;
+    background-size: 380px;
+    background-image: url("momos.jpg");
+  
+}
+
+.img4
+{
+    width:274px;
+    height:250px;
+    background-image: url("noodles.jpg");
+    background-size: 380px;
+    flex:none;
+}
+
+.img5
+{
+    width:274px;
+    height:250px;
+    background-image: url("china garden.jpg");
+    background-size: 380px;
+    flex:none;
+}
+
+.f1
+{
+    height:200px;
+    width:auto;
+    margin-top: 60px;
+    background-color: rgb(60, 138, 60);
+    padding-left: 80px;
+    padding-right: 20px;
+    
+}
+
+.h
+{
+    text-align: left;
+    color:rgb(216, 211, 211);
+}
+#orderOnline {
+    font-size: 20px;
+    float: right;
+    margin: 20px 100px;
+    color: white;
+    background-color:rgb(10,101,23);
+    border: 3px solid rgb(10,101,23);
+    padding: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;    
+    }
+
+#orderOnline:hover {
+    background-color:white;
+    color:rgb(10,101,23);
+ }
