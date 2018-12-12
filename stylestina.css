@@ -102,21 +102,24 @@ li a:hover {
     padding: 20px 10px;
     border: 3px solid rgb(10,101,23); 
     text-align: right;   
-    overflow: auto;
+    overflow: hidden;
     clear: right; 
-}
+    }
 .food1 {
-    margin-top: 80px;
-   
-   
+    margin-top: 80px;    
 }
 .pizza::after{
     content: "";
     clear: both;
     display: table;
 }
+::-webkit-scrollbar{
+    display:none;
+}
 .pizza{ 
     background-image: url("peppizza.jpg");
+    position: relative;
+    bottom: 180px;
     
  }
 .burger {
