@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;   
 }
 body{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -88,9 +89,46 @@ li a:hover {
     background-color:white;
     color:rgb(10,101,23);
  }
- .fooditems{
-    
- }
+ {
+    box-sizing: border-box;
+  }
+.foods {
+    display: flex;
+    margin: 100px 300px;
+  }
+.pizza, .burger, .poutine, .nachos{
+    flex: 33.33%;
+    padding: 5px;
+}
+.foods::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+.facebook, .google, .twitter {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    float: bottom;
+}
+.facebook {
+    background: #3B5998;
+    color: white;
+  }
+ 
+.twitter {
+    background: rgb(73, 169, 243);
+    color: white;
+  }
+  
+.google {
+    background: #df3822;
+    color: white;
+  }  
+
 /*-------------------------------------------------------------------------------------------------------------------------------*/
 .box
 {
