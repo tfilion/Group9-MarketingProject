@@ -111,29 +111,37 @@ li a:hover {
 .food1 {
     margin-top: 80px;    
 }
-.pizza::after{
+/*.pizza::after{
     content: "";
     clear: both;
     display: table;
-}
+}*/
 ::-webkit-scrollbar{
     display:none;
 }
 .pizza{ 
     background-image: url("peppizza.jpg");
     position: relative;
-    bottom: 190px;
+    bottom: 195px;
     
  }
 .burger {
     background-image: url("burgerandfries.jpg");
+    position: relative;
+    bottom: 152px;
+    
 }
 .poutine {
     background-image: url("poutine.jpg");
+    position: relative;
+    bottom: 151px;
+    
     
 }
 .nachos {
     background-image: url("nachos.jpg");
+    position: relative;
+    bottom: 108px;
     
 }
 .pizza, .burger, .poutine, .nachos {
@@ -143,14 +151,42 @@ li a:hover {
     display: inline-block; 
     float: right;
     margin-top: 10px;
-    border: 3px solid white;
+    border: 5px solid white;
     border-radius: 5px;
     
  }
- #descrPizza, #descrBurger, #descrPoutine, #descrNachos {
+ #descrPizza {
+    font-size: 18px;
     text-align: left;
     margin-top: 20px;
+    position: relative;
+    top: 14px;
+    left: 30px;
+}
+#descrBurger{
     font-size: 18px;
+    text-align: left;
+    margin-top: 20px;
+    position: relative;
+    top: 22px;
+    left: 30px;
+
+} 
+#descrPoutine{
+    font-size: 18px;
+    text-align: left;
+    margin-top: 20px;
+    position: relative;
+    top: 22px;
+    left: 30px;
+}
+#descrNachos {
+    font-size: 18px;
+    text-align: left;
+    margin-top: 20px;
+    position: relative;
+    top: 45px;
+    left: 30px;
 }
 .welcometxt{
     font-size: 22px;
