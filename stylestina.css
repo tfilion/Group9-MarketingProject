@@ -1,0 +1,435 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: rgb(204, 198, 198);
+
+}
+h1 {
+    top: 70px;
+    left: 50px;
+    position: relative;
+    color: white;
+    font-size: 72px;
+    text-shadow: -1px 1px 7px black;
+}
+.restoTitle {
+    top: 60px;
+    left: 380px;
+    position: relative;
+    color: white;
+    font-size: 40px;
+    text-shadow: -5px 5px 7px black;
+}
+.titleImg{
+    background-image: url("image1.jpg");
+    background-size: cover;
+    height: 315px;
+    position: relative;
+    color: white;
+    background-size: 1000px;
+}
+.navBar{    
+    height: 50px;
+    position: relative;
+    top: 127px;
+    color: white;
+    /*font-size: 30px;*/    
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(10,101,23);
+    opacity: 0.85;
+}
+li {   
+    display: inline;
+    border-right: 1px solid white;
+    margin: 0px;
+    float: left;
+    font-size: 24px;
+    padding: 10px 20px;
+}    
+li:last-child {
+    border-right: none;
+}
+li a{
+    color:white;
+    text-decoration: none;
+}
+li a:hover {
+<<<<<<< HEAD
+    color: green;
+    text-align: center;
+    background-color: white;
+    padding: 0px;
+    margin: 0;
+    width: 100%;
+    }
+#orderOnline {
+    font-size: 20px;
+    float: right;
+    margin: 20px 100px;
+=======
+    display: inline-block;
+>>>>>>> 107a50cd86b3eef50c319aed90ca2dd2b1605095
+    color: white;
+    text-align: center;
+    padding: 1px;
+    background-color: black;
+}
+
+
+.box
+{
+    width:2100px;
+    height:350px;
+    margin-top: 80px;
+    background-color: rgb(204, 198, 198);
+    padding-top:50px;
+    padding-left: 120px;
+    padding-right: 30px;
+
+}
+
+.box1
+{
+    width:300px;
+    height:300px;
+    background-color:white;
+    float:left;
+    padding-top:20px;
+    padding-left: 20px;
+    border-radius: 20px;
+    
+    
+}
+
+.box2
+{
+    width:300px;
+    height:300px;
+    background-color: white; 
+    float:left;
+    margin-left: 30px;
+    padding-top:20px;
+    padding-left: 20px;
+    border-radius: 20px;
+   
+
+   
+    
+}
+
+.box3
+{
+    width:300px;
+    height:300px;
+    background-color: white;
+    float:left;
+    margin-left:30px;
+    padding-top:20px;
+    padding-left: 20px;
+    border-radius: 20px;
+   
+}
+
+.box4
+{
+    width:300px;
+    height:300px;
+    background-color: white;
+    float:left;
+    margin-left:30px;
+    padding-top:20px;
+    padding-left: 20px;
+    border-radius: 20px;
+   
+}
+
+.box5
+{
+    width:300px;
+    height:300px;
+    background-color: white;
+    float:right;
+    margin-right:385px;
+    padding-top:20px;
+    padding-left: 20px;
+    border-radius: 20px;
+}
+
+.btmright, .btmright1, .btmright2, .btmright3, .btmright4
+{
+    position: absolute;
+    color:green;
+    font-size: 18px;
+}
+
+.btmright
+{
+    left: 150px;
+   
+}
+
+.btmright1
+{
+    left:500px;
+    
+}
+.btmright2
+{
+    left:850px;
+}
+.btmright3
+{
+    left:1200px;
+}
+.btmright4
+{
+    left:1530px;
+}
+
+.name1, name2, .name3, .name4, .name5{
+    position: absolute;
+    color:rgb(52, 21, 138);
+    font-size: 20px;
+    margin-top: 25px;
+}
+
+
+.name2{
+    left:320px;
+    margin-top:26px;
+    font-size:20px;
+    color:rgb(52, 21, 138);
+}
+
+
+.div1
+{
+    width:274px;
+    height:250px;
+    background-image: url('paneer.jpg');
+    background-size: 320px;
+}
+
+.div2
+{
+    width:274px;
+    height:250px;
+    background-image: url(https://www.culturalindia.net/iliimages/Punjabi-Food-1.jpg);
+    background-size: 380px;
+}
+
+.div3
+{
+    width:274px;
+    height:250px;
+    background-size: 380px;
+    background-image: url(https://i.ndtvimg.com/i/2015-01/saag_625x350_51420779118.jpg);
+  
+
+}
+.div4
+{   width:274px;
+    height:250px;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQeY4Q6WBKk_-RtpzD8E_IOg671yWQYHZ_iBdRhXT4DvD90fIjJ);
+    background-size: 380px;
+    flex:none;
+}
+
+.div5
+{
+    width:274px;
+    height:250px;
+    background-image: url("lassi.jpg");
+    background-size: 280px;
+}
+
+.footer
+{
+    height:200px;
+    width:auto;
+    margin-top: 60px;
+    background-color: rgb(60, 138, 60);
+    padding-left: 80px;
+    padding-right: 20px;
+    
+}
+
+.p
+{
+    text-align: left;
+    color:rgb(216, 211, 211);
+}
+
+
+.bigbox
+{
+    width:2100px;
+    height:350px;
+    margin-top: 80px;
+    
+    padding-top:50px;
+    padding-left: 120px;
+    padding-right: 30px;
+
+}
+
+.I1, .I2, .I3, .I4, .I5
+{
+    width:300px;
+    height:300px;
+    background-color:white;
+    float:left;
+    padding-top:20px;
+    padding-left: 20px;
+    border-radius: 20px;
+    
+}
+.I2
+{
+    margin-left: 30px;
+}
+.I3
+{
+    margin-left:30px;
+}
+.I4
+{
+    margin-left:30px;
+}
+.I5
+{
+    float:right;
+    margin-right:385px;
+}
+.btm, .btm1, .btm2, .btm3, .btm4
+{
+    position: absolute;
+    color:green;
+    font-size: 18px;
+}
+
+.btm
+{
+    left: 150px;
+   
+}
+
+.btm1
+{
+    left:500px;
+    
+}
+.btm2
+{
+    left:850px;
+}
+.btm3
+{
+    left:1200px;
+}
+.btm4
+{
+    left:1530px;
+}
+.n1, n2, .n3, .n4, .n5{
+    position: absolute;
+    color:rgb(52, 21, 138);
+    font-size: 20px;
+    margin-top: 25px;   
+}
+
+
+.n2{
+    left:320px;
+    margin-top:26px;
+    font-size:20px;
+    color:rgb(52, 21, 138);
+}
+
+.p1
+{
+    width:274px;
+    height:250px;
+    background-image: url('paneer.jpg');
+    background-size: 320px;
+}
+
+.p2
+{
+    width:274px;
+    height:250px;
+    background-image: url(https://www.culturalindia.net/iliimages/Punjabi-Food-1.jpg);
+    background-size: 380px;
+}
+
+.p3
+{
+    width:274px;
+    height:250px;
+    background-size: 380px;
+    background-image: url(https://i.ndtvimg.com/i/2015-01/saag_625x350_51420779118.jpg);
+  
+
+}
+.p4
+{   width:274px;
+    height:250px;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQeY4Q6WBKk_-RtpzD8E_IOg671yWQYHZ_iBdRhXT4DvD90fIjJ);
+    background-size: 380px;
+    flex:none;
+}
+
+.p5
+{
+    width:274px;
+    height:250px;
+    background-image: url("lassi.jpg");
+    background-size: 280px;
+}
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 350px) and (max-width: 767px){
+    .navbar {
+        ul.navbar li.right, 
+        ul.navbar li {float: none;}
+        /*display: block;
+        width: 100%;*/
+    }
+    /*#box2 { 
+        display: block;
+        width: 100%;
+    }*/
+    }
+    
+@media only screen and (min-width: 768px) and (max-width: 1199px){
+    .navbar {
+        ul.navBar li.right, 
+        ul.navBar li {float: none;}
+        /*display: block;
+        width: 100%;
+        font-size: 16px;
+        background-color: white;*/
+    }
+    /*#box2 {
+        display: block;
+        width: 100%;
+        font-size: 16px;
+        background-color: white;
+    }*/
+
+   
