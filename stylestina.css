@@ -1,8 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;   
-}
+   }
 body{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: rgb(204, 198, 198);
@@ -89,23 +88,39 @@ li a:hover {
     background-color:white;
     color:rgb(10,101,23);
  }
- {
-    box-sizing: border-box;
-  }
-.foods {
-    display: flex;
-    margin: 100px 300px;
-  }
-.pizza, .burger, .poutine, .nachos{
-    flex: 33.33%;
-    padding: 5px;
+
+ .middle {
+    height: 900px;
+    width: 100%;
 }
-.foods::after {
-    content: "";
-    clear: both;
-    display: table;
+.food1, .food2, .food3, .food4 {
+    height: 270px;
+    width: 250px;
+    display: inline-block;
+    margin: 50px 10px 5px 200px;
+    padding: 20px 100px 5px 10px;
+       
 }
 
+.pizza{ 
+    background-image: url("peppizza.jpg");
+}
+.burger {
+    background-image: url("burgerandfries.jpg");
+}
+.poutine {
+    background-image: url("poutine.jpg");
+}
+.nachos {
+    background-image: url("nachos.jpg");
+}
+.pizza, .burger, .poutine, .nachos {
+    background-size: cover;
+    height: 250px;
+    width: 240px; 
+    display: inline-block;
+    
+}
 /*-------------------------------------------------------------------------------------------------------------------------------*/
 .box
 {
