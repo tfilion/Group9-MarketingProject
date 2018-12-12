@@ -5,9 +5,10 @@
 body{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: rgb(204, 198, 198);
-}
+  }
 #body{
     background-color: white;
+    
 }
 h1 {
     top: 70px;
@@ -86,6 +87,9 @@ li a:hover {
 #orderOnline:hover {
     background-color:white;
     color:rgb(10,101,23);
+ }
+ .fooditems{
+    
  }
 /*-------------------------------------------------------------------------------------------------------------------------------*/
 .box
@@ -198,7 +202,7 @@ li a:hover {
     left:1530px;
 }
 
-.name1, name2, .name3, .name4, .name5{
+.name1, .name2, .name3, .name4, .name5{
     position: absolute;
     color:rgb(52, 21, 138);
     font-size: 20px;
