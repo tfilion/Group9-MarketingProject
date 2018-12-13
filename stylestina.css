@@ -90,6 +90,7 @@ li a:hover {
     color:rgb(10,101,23);
  }
 
+
  .middle {
     height: 1600px;
     width: 100%;
@@ -190,11 +191,18 @@ li a:hover {
     left: 30px;
 }
 .welcometxt{
-    font-size: 22px;
-    margin: 50px;
-    padding: 10px;
-    color: rgb(10,101,23);
+    margin-left: 30px;
+    margin-top: 140px;   
 }
+#pv1{
+    color: rgb(10,101,23);
+    font-size: 26px;    
+}
+.video{    
+    margin-left: 510px;
+    margin-top: -160px;
+    
+ }
 .fa {
     padding: 20px;
     font-size: 30px;
@@ -223,6 +231,14 @@ li a:hover {
   }
 .text-container {
     margin-left: 150px;
+}
+table {
+    border: 2px solid green;
+    width: 30%;
+}
+th {
+    
+    text-align: left;
 }
 /*-------------------------------------------------------------------------------------------------------------------------------*/
 .box
