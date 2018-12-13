@@ -24,12 +24,12 @@ h1 {
     text-shadow: -5px 5px 7px black;
 }
 .titleImg{
-    background-image: url("image1.jpg");
+    background-image: url("banner.jpg");
     background-size: cover;
     height: 315px;
     position: relative;
     color: white;
-    background-size: 1000px;
+    
 }
 .navBar{    
     height: 50px;
@@ -62,16 +62,17 @@ li a{
     text-decoration: none;
 }
 li a:hover {
-    display: inline-block;
-    color: white;
+    color: green;
     text-align: center;
-    padding: 1px;
-    background-color: black;
+    background-color: white;
+    padding: 0px;
+    margin: 0;
+    width: 100%;
 }
 
 .b
 {
-     width:1780px;
+     width:auto;
      height:350px;
      margin-top: 80px;
      padding-top:50px;
@@ -204,11 +205,11 @@ li a:hover {
 }
 .italn4
 {
-    left:1220px;
+    left:60px;
 }
 .italn5
 {
-    left:1570px;
+    left:1025px;
 }
 
 .photo1
@@ -263,20 +264,21 @@ li a:hover {
 
 .f2
 {
-    height:200px;
+    height:20px;
     width:auto;
-    margin-top: 60px;
+    margin-top: 350px;
     background-color: rgb(60, 138, 60);
-    padding-left: 80px;
-    padding-right: 20px;
+    padding: 75px;
+    padding-bottom: 120px;
     
 }
 
 .g
 {
-    text-align: left;
+    text-align: center;
     color:rgb(216, 211, 211);
-}
+    font-size: 18px;
+   }
 #orderOnline {
     font-size: 20px;
     float: right;

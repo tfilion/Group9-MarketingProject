@@ -1,4 +1,7 @@
-
+*{
+    margin: 0;
+    padding: 0;
+   }
 
 /*h1{
    text-align: center; 
@@ -12,6 +15,7 @@ h4{
     background-size:cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 h1 {
@@ -39,11 +43,12 @@ h1 {
     color: white;
     /*background-size: 1000px;*/
 }
-.navBar{    
+#navBar{    
     height: 50px;
     position: relative;
-    top: 127px;
+    top: -48px;
     color: white;
+    font: Trebuchet;
     /*font-size: 30px;*/    
 }
 ul {
