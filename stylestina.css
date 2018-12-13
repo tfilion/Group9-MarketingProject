@@ -24,6 +24,7 @@ h1 {
     position: relative;
     color: white;
     font-size: 40px;
+    margin-left: 0px;
     text-shadow: -5px 5px 7px black;
 }
 .titleImg{
