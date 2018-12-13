@@ -92,7 +92,7 @@ li a:hover {
 
 
  .middle {
-    height: 1600px;
+    height: 1300px;
     width: 100%;
 
 }
@@ -230,15 +230,48 @@ li a:hover {
     border-radius: 50%;
   }
 .text-container {
-    margin-left: 150px;
+    margin-left: 575px;
 }
 table {
     border: 2px solid green;
     width: 30%;
+    margin-top: 40px;
+    margin-left: 450px;
 }
 th {
-     text-align: left;
+    padding: 5px;
 }
+table, th, td {
+    border: 3px solid rgb(10,101,23);
+    border-collapse: collapse;
+  }
+td {
+    font-size: 16px;
+    text-align: center;
+    font-weight: bold;    
+}
+footer {
+    padding: 30px;
+}
+#myBtn {
+    display: none; 
+    position: fixed; 
+    bottom: 40px; 
+    right: 60px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; 
+    outline: none; 
+    background-color: black; 
+    color: white; 
+    cursor: pointer; 
+    padding: 15px; 
+    border-radius: 10px; 
+    font-size: 18px; 
+  }
+  
+  #myBtn:hover {
+    background-color: #555; /* Add a dark-grey background on hover */
+  }
 /*-------------------------------------------------------------------------------------------------------------------------------*/
 .box
 {
@@ -423,6 +456,7 @@ th {
     text-align: center;
     color:rgb(216, 211, 211);
     font-size: 18px;
+    bottom: 600px;
 }
 
 
@@ -515,7 +549,7 @@ th {
 {
     width:274px;
     height:250px;
-    background-image: url('paneer.jpg');
+    background-image: url('frites.jpg');
     background-size: 320px;
 }
 
@@ -548,8 +582,9 @@ th {
 {
     width:274px;
     height:250px;
-    background-image: url("lassi.jpg");
+    background-image: url("coq.jpg");
     background-size: 280px;
+    background-repeat:no-repeat;
 }
 
 
