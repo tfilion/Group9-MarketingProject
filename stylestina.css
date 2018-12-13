@@ -281,7 +281,7 @@ li a:hover {
     height:300px;
     background-color: white;
     float:left;
-    margin-left:30px;
+    margin-left:300px;
     padding-top:20px;
     padding-left: 20px;
     border-radius: 20px;
@@ -310,26 +310,26 @@ li a:hover {
 
 .btmright
 {
-    left: 150px;
+    left: 375px;
    
 }
 
 .btmright1
 {
-    left:500px;
+    left: 725px;
     
 }
 .btmright2
 {
-    left:850px;
+    left:1085px;
 }
 .btmright3
 {
-    left:60px;
+    left:550px;
 }
 .btmright4
 {
-    left:1025px;
+    left:900px;
 }
 
 .name1, .name2, .name3, .name4, .name5{
@@ -341,7 +341,7 @@ li a:hover {
 
 
 .name2{
-    left:320px;
+    left:500px;
     margin-top:26px;
     font-size:20px;
     color:rgb(52, 21, 138);
@@ -441,7 +441,7 @@ li a:hover {
 }
 .I4
 {
-    margin-left:30px;
+    margin-left:300px;
 }
 .I5
 {
@@ -472,11 +472,11 @@ li a:hover {
 }
 .btm3
 {
-    left:1200px;
+    left:550px;
 }
 .btm4
 {
-    left:1530px;
+    left: 900px;
 }
 .n1, n2, .n3, .n4, .n5{
     position: absolute;
