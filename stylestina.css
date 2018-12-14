@@ -233,19 +233,21 @@ li a:hover {
     margin-left: 575px;
 }
 table {
-    border: 2px solid green;
+    
     width: 30%;
     margin-top: 40px;
     margin-left: 450px;
 }
-th {
+th {   
     padding: 5px;
 }
 table, th, td {
-    border: 3px solid rgb(10,101,23);
-    border-collapse: collapse;
+    /*border-collapse: collapse; */
+    background-color: rgb(10,101,23);
+    color: white;
+    border-bottom: 3px solid white;
   }
-td {
+td {    
     font-size: 16px;
     text-align: center;
     font-weight: bold;    
@@ -557,7 +559,7 @@ footer {
 {
     width:274px;
     height:250px;
-    background-image: url("");
+    background-image: url("chick.jpg");
     background-size: 380px;
 }
 
@@ -566,7 +568,7 @@ footer {
     width:274px;
     height:250px;
     background-size: 380px;
-    background-image: url("");
+    background-image: url("square.jpg");
   
 
 }

@@ -11,8 +11,8 @@ function mUp(obj) {
     obj.style.border="3px solid green"
     obj.innerHTML="Order now!";
   }
-  window.onscroll = function() {scrollFunction()};
-
+  
+window.onscroll = function() {scrollFunction()};
 function scrollFunction() {
   if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
     document.getElementById("myBtn").style.display = "block";
