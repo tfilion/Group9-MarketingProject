@@ -549,7 +549,7 @@ footer {
 {
     width:274px;
     height:250px;
-    background-image: url('frites.jpg');
+    background-image: url('steak.jpg');
     background-size: 320px;
 }
 
@@ -557,7 +557,7 @@ footer {
 {
     width:274px;
     height:250px;
-    background-image: url(https://www.culturalindia.net/iliimages/Punjabi-Food-1.jpg);
+    background-image: url("");
     background-size: 380px;
 }
 
@@ -566,14 +566,14 @@ footer {
     width:274px;
     height:250px;
     background-size: 380px;
-    background-image: url(https://i.ndtvimg.com/i/2015-01/saag_625x350_51420779118.jpg);
+    background-image: url("");
   
 
 }
 .p4
 {   width:274px;
     height:250px;
-    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQeY4Q6WBKk_-RtpzD8E_IOg671yWQYHZ_iBdRhXT4DvD90fIjJ);
+    background-image: url("quiche.jpg");
     background-size: 380px;
     flex:none;
 }
